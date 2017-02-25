@@ -9,6 +9,10 @@
 #
 # Please see http://i3wm.org/docs/userguide.html for a complete reference!
 
+# wallpaper
+#
+exec_always wal -i "${HOME}/.dotfiles/images" -a 20
+
 set $mod Mod1
 
 # Font for window titles. Will also be used by the bar unless a different font
