@@ -52,6 +52,9 @@ bindsym $mod+Return exec urxvt
 # kill focused window
 bindsym $mod+Shift+q kill
 
+# change wallpaper
+bindsym $mod+c exec "wal -i ~/.dotfiles/images/"
+
 # start dmenu (a program launcher)
 bindsym $mod+d exec dmenu_run
 
