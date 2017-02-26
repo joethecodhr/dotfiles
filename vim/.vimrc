@@ -15,7 +15,7 @@ python del powerline_setup
 set laststatus=2
 
 " fancy utf-8 powerline. requires a patched font.
-let g:Powerline_symbols = 'fancy'
+" let g:Powerline_symbols = 'fancy'
 let g:Powerline_colorscheme = 'solarized26_light'
 
 " do not show -- INSERT -- after the status line, since powerline does this already
@@ -51,9 +51,9 @@ set t_Co=256
 
 " colorschemes
 set background=dark
-let g:solarized_termcolors=256
-let g:solarized_termtrans=1
-colorscheme solarized
+"let g:solarized_termcolors=256
+"let g:solarized_termtrans=1
+"colorscheme solarized
 "color jellybeans
 "color railscasts
 "color railscasts256

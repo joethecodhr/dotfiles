@@ -29,7 +29,8 @@
 *color7:     #dddddd
 *color15:    #dddddd
 
-URxvt*font:               xft:Tamsyn:7x14r:pixelsize=16
+!URxvt*font:               xft:Tamsyn:7x14r:pixelsize=16
+URxvt*font: xft:Roboto Mono for Powerline:style=Light:pixelsize=13
 
 URxvt.transparent:       true
 URxvt.shading:            20
