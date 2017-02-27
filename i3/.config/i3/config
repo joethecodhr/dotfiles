@@ -15,7 +15,10 @@
 exec_always wal -i `cat ~/.cache/wal/wal`
 
 # mpd
-exec mpd
+exec --no-startup-id mpd
+
+# redshift
+exec --no-startup-id redshift-gtk
 
 # set modifier
 set $mod Mod1
