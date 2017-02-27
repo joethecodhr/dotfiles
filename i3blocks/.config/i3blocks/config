@@ -5,8 +5,6 @@ color=#666666
 separator=false
 separator_block_width=7
 
-[separator]
-
 [bandwidth2]
 label=
 command=~/bin/i3blocks-contrib/bandwidth2/bandwidth2 -w 307200:30720 -c 512000:51200
@@ -60,3 +58,4 @@ label=
 interval=1
 command=date +"%a, %b %d, %I:%M %p"
 
+[separator]
