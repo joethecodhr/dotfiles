@@ -1,14 +1,62 @@
-interval=1
-color=#00FF00
+command=/usr/share/i3blocks/$BLOCK_NAME
+full_text=
+align=center
+color=#666666
+separator=false
+separator_block_width=7
+
+[separator]
 
 [bandwidth2]
+label=
 command=~/bin/i3blocks-contrib/bandwidth2/bandwidth2 -w 307200:30720 -c 512000:51200
 interval=persist
 markup=pango
+min_width=s 1000.0 x/s 1000.0 x/s
+
+[separator]
+
+[disk]
+label=
+#instance=/mnt/data
+interval=30
+
+[separator]
+
+[iface]
+#instance=wlan0
+label=
+interval=10
+min_width=s 255.255.255.255
+
+[separator]
+
+[cpu_usage]
+label=
+interval=10
+min_width=s 100.00%
+
+[separator]
+
+[memory]
+label=
+interval=30
+
+[memory]
+label=
+instance=swap
+interval=30
+
+[separator]
 
 [volume-pulseaudio]
+interval=1
 command=~/bin/i3blocks-contrib/volume-pulseaudio/volume-pulseaudio
 
+[separator]
+
 [time]
+label=
 interval=1
 command=date +"%a, %b %d, %I:%M %p"
+
