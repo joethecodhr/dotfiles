@@ -12,7 +12,7 @@
 # wallpaper
 #
 # exec_always wal -i "${HOME}/.cache/wal/images"
-exec_always wal -i `cat ~/.cache/wal/wal`
+exec_always wal -i "`cat ~/.cache/wal/wal`"
 
 # mpd
 exec --no-startup-id mpd

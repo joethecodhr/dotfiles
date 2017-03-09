@@ -29,8 +29,8 @@
 *color7:  #dddddd
 *color15: #dddddd
 
-URxvt.font:         xft:terminess powerline:style=Regular:pixelsize=12
-URxvt.boldfont:     xft:terminess powerline:style=Bold:pixelsize=12
+URxvt.font:         xft:terminess powerline:style=Regular:pixelsize=16
+URxvt.boldfont:     xft:terminess powerline:style=Bold:pixelsize=16
 URxvt.transparent:  true
 URxvt.shading:      10
 URxvt.scrollBar:    false
