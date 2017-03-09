@@ -1,17 +1,35 @@
+let s:editor_root=expand("~/.config/nvim")
+
+set nocompatible
+filetype off
+
+" set the runtime path to include Vundle and initialize
+set rtp+=~/.config/nvim/bundle/Vundle.vim
+" call vundle#begin()
+" alternatively, pass a path where Vundle should install plugins
+call vundle#begin('~/.config/nvim/bundle')
+
+" let Vundle manage Vundle, required
+Plugin 'VundleVim/Vundle.vim'
+Plugin 'Valloric/YouCompleteMe'
+Plugin 'scrooloose/nerdtree'
+
+call vundle#end()            " required
+filetype plugin indent on    " required
+
+set cc=80
 set runtimepath^=~/.vim/bundle/ctrlp.vim
-execute pathogen#infect() 
 
 set encoding=utf-8
 set termencoding=utf-8
-set nocompatible
 
 "fix backspace after insert
 set backspace=indent,eol,start
 
 "powerline
-python from powerline.vim import setup as powerline_setup
-python powerline_setup()
-python del powerline_setup
+"python from powerline.vim import setup as powerline_setup
+"python powerline_setup()
+"python del powerline_setup
 set laststatus=2
 
 " fancy utf-8 powerline. requires a patched font.
@@ -39,7 +57,6 @@ set nospell
 set tabstop=4
 set shiftwidth=4
 set expandtab
-filetype on
 filetype plugin on
 filetype indent on
 "set autoindent
